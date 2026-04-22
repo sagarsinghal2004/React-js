@@ -1,0 +1,21 @@
+React.js Notes
+
+1. React project using create-react-app:
+
+The 'react-scripts' are responsible to load the index.js file to the web page (index.html).
+
+2. React project using Vite:
+
+The javascript is loaded to web page traditionally using the html Script tags.
+
+2.1 Components in React: 
+
+-> A Component is a reusable piece of UI that takes input and returns what should be rendered.
+   It is a javascript function or class that accepts input and returns JSX.
+
+   * The name of the Component always begin with an uppercase letter.
+   * The Component is used by other Components using 'export' and 'import'
+        
+            export default < Component_name >
+
+# Fragment: empty HTML tag used for enclosing multiple Components.   { <></> }
