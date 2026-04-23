@@ -9,3 +9,8 @@ this shows how generally react creates and renders element on the UI.
 These element which we have created can only be used by our custom react and not in actual react 
 project. This is because the element we have created has the names of 'key' which we have assigned 
 but in React.js the keys might be different for a html element.
+
+when we create a custom element, inside the custom react element it uses Evaluated Expression 
+(refer React Notes.txt)
+
+**(imp) every react element is an object and object does not have logics written inside it. 

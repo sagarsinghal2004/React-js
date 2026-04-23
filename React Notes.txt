@@ -8,14 +8,31 @@ The 'react-scripts' are responsible to load the index.js file to the web page (i
 
 The javascript is loaded to web page traditionally using the html Script tags.
 
-2.1 Components in React: 
+    2.1 Components in React: 
 
--> A Component is a reusable piece of UI that takes input and returns what should be rendered.
-   It is a javascript function or class that accepts input and returns JSX.
+    -> A Component is a reusable piece of UI that takes input and returns what should be rendered.
+    It is a javascript function or class that accepts input and returns JSX.
 
-   * The name of the Component always begin with an uppercase letter.
-   * The Component is used by other Components using 'export' and 'import'
-        
-            export default < Component_name >
+    * The name of the Component always begin with an uppercase letter.
+    * The Component is used by other Components using 'export' and 'import'
+            
+                export default < Component_name >
 
 # Fragment: empty HTML tag used for enclosing multiple Components.   { <></> }
+
+# Expression: An Expression is any valid piece of JS code that produces a value.In React, 
+  expressions are written inside curly braces {}.
+
+           examples: {name}, {username} etc...
+
+# Evaluated Expression: An Evaluated Expression is the final obtained after executing an expression.
+
+# Babel: It is a javascript compiler (Transpiler) that converts modern javascript and JSX into code
+  that browsers can understand (Plain javascript). In react, Babel is mainly used to convert 
+  JSX into normal javascript.
+
+  example:  const element = <h1>Hello World</h1>;   //JSX
+
+            const element = React.createElement("h1", null, "Hello World");     
+            
+            // Babel converts to this
