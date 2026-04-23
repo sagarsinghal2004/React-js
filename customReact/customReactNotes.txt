@@ -1,0 +1,11 @@
+Custom React notes:
+
+Here we have tried to build a small custom react where we have firstly created a 'index.html' page which
+is the web page for the application. 
+
+Then added a script 'customreact.js' in which a element  is created and rendered from very basic.
+this shows how generally react creates and renders element on the UI. 
+
+These element which we have created can only be used by our custom react and not in actual react 
+project. This is because the element we have created has the names of 'key' which we have assigned 
+but in React.js the keys might be different for a html element.
