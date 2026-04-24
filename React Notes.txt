@@ -36,3 +36,24 @@ The javascript is loaded to web page traditionally using the html Script tags.
             const element = React.createElement("h1", null, "Hello World");     
             
             // Babel converts to this
+
+    2.2 Hooks in React: 
+    
+    -> Hooks are special functions in React.js that let you use features like state and lifecycle 
+    inside functional components.
+
+    Without using hooks, the UI is not able to render the changes which are made using JS logic 
+    or events. The Ui updation is controlled by React. 
+
+    examples: useState, useEffect etc are hooks in React.
+
+    import { useState } from 'react'     // to import hooks in project
+
+    a. useState Hook: the useState Hook is used to add state (data) to functional components.
+       With this Hook, functional components can also store and update data.
+
+       Syntax:    const [state, setState] = useState(initialValue);
+
+       state → current value
+       setState → function to update the value
+       initialValue → starting value
